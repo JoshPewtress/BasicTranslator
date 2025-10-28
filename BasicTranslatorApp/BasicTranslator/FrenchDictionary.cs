@@ -1,4 +1,6 @@
-﻿public class FrenchDictionary : TranslatorBase
+﻿namespace BasicTranslator;
+
+public class FrenchDictionary : TranslatorBase
 {
     protected override Dictionary<string, string> Dictionary { get; } = new(StringComparer.OrdinalIgnoreCase)
     {
